@@ -1,0 +1,1221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-family: "BinancePlex", Arial, Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0.9px;
+}
+.blnwbcsc {
+  font-size: xx-large;
+  line-height: 1em;
+}
+/* .closesmarteth {
+  color: white;
+  display: inline-block;
+  border: none;
+} */
+/* .OPEN-ETH-WALLETS {
+  display: block;
+}
+.OPEN-BTC-WALLETS {
+  display: block;
+} */
+img {
+  display: block;
+  width: 100%;
+}
+
+.header-div {
+  display: flex;
+  color: #fcd535;
+  font-weight: bolder;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.binance-name {
+  margin-left: -5px;
+  font-size: 20px;
+  color: #f0b90b;
+  text-decoration: none;
+}
+.menu-container {
+  line-height: 3.4rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: right;
+}
+.wine-img {
+  width: 55px;
+}
+.header-ul {
+  display: none;
+  width: 320px;
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  height: 99vh;
+}
+.header-ul:hover {
+  overflow-y: auto;
+}
+.Openmenudrops {
+  display: block;
+  top: 20px;
+}
+.bars-btn {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  width: 25px;
+  /* height: 16px; */
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  border-bottom: 0.1px solid #70708a;
+  height: 65px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 200; */
+}
+.faclose-btn {
+  display: block;
+  float: right;
+  clear: both;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+}
+.paywt-link {
+  text-decoration: none;
+  color: #1e2329;
+}
+.paywt-div {
+  margin-left: 34px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+}
+.paywt-span {
+  justify-content: space-between;
+  display: flex;
+  flex-shrink: 0;
+}
+.eur-fig {
+  display: inline-block;
+  height: 1px;
+}
+
+.bd-img {
+  display: inline-block;
+  width: 30px;
+  height: 20;
+}
+.x-cls {
+  font-weight: bolder;
+  color: #7a7a7a;
+  margin-top: 12px;
+  margin-right: 22px;
+  display: flex;
+}
+.x-cls:hover {
+  color: #f4be2b;
+}
+.login-btn a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.reg-btn a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.login-btn {
+  width: 100%;
+  display: block;
+  background-color: white;
+  text-align: center;
+  clear: both;
+  height: 39px;
+  border: none;
+}
+.reg-btn {
+  width: 280px;
+  display: block;
+  background-color: #fcd535;
+  border-radius: 6px;
+  height: 39px;
+  margin-left: 20px;
+  border: none;
+}
+
+.market-icon {
+  width: px;
+  color: #76808f;
+}
+
+.buycrypto-input {
+  display: none;
+}
+.buycrypto-wrap {
+  margin-left: -44px;
+  display: none;
+  position: static;
+  list-style-type: none;
+  line-height: 35px;
+}
+[id^="lab4-buycrypto"]:checked + .buycrypto-wrap {
+  display: block;
+}
+.lab4-buycrypto1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  vertical-align: top;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buycrypto-lis {
+  position: relative;
+  list-style-type: none;
+}
+.buycrypto-lis:hover i .fa-caret-up {
+  display: block;
+}
+.trade-input {
+  display: none;
+}
+.trade-wrap {
+  margin-left: -44px;
+
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-trade"]:checked + .trade-wrap {
+  display: block;
+}
+.lab4-trade1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.trade-lis {
+  position: relative;
+  list-style-type: none;
+}
+.trade-lis:hover i .fa-caret-up {
+  display: block;
+}
+
+.derivatives-input {
+  display: none;
+}
+.derivatives-wrap {
+  margin-left: -30px;
+
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-derivatives"]:checked + .derivatives-wrap {
+  display: block;
+}
+.lab4-derivatives1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.derivatives-lis {
+  margin-right: 16px;
+  margin-left: 17px;
+  position: relative;
+  list-style-type: none;
+}
+.derivatives-lis:hover i .fa-caret-up {
+  display: block;
+}
+
+.earn-input {
+  display: none;
+}
+.earn-wrap {
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-earn"]:checked + .earn-wrap {
+  display: block;
+}
+.lab4-earn1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.earn-lis {
+  position: relative;
+  list-style-type: none;
+}
+.earn-lis:hover i .fa-caret-up {
+  display: block;
+}
+
+.finance-input {
+  display: none;
+}
+.finance-wrap {
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-finance"]:checked + .finance-wrap {
+  display: block;
+}
+.lab4-finance1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.finance-lis {
+  position: relative;
+  list-style-type: none;
+}
+.finance-lis:hover i .fa-caret-up {
+  display: block;
+}
+
+.institutional-input {
+  display: none;
+}
+.institutional-wrap {
+  margin-left: -44px;
+
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-institutional"]:checked + .institutional-wrap {
+  display: block;
+}
+.lab4-institutional1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.institutional-lis {
+  position: relative;
+  list-style-type: none;
+}
+.institutional-lis:hover i .fa-caret-up {
+  display: block;
+}
+
+.products-input {
+  display: none;
+}
+.products-wrap {
+  margin-left: -44px;
+
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-products"]:checked + .products-wrap {
+  display: block;
+}
+.lab4-products1 {
+  margin-right: 16px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-caret-up {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.products-lis {
+  position: relative;
+  list-style-type: none;
+}
+.products-lis:hover i .fa-caret-up {
+  display: block;
+}
+.markets-link {
+  margin-left: 11px;
+
+  text-decoration: none;
+  color: #1e2329;
+  list-style-type: none;
+}
+.nft-link {
+  text-decoration: none;
+  color: #1e2329;
+  list-style-type: none;
+}
+.nft-lis {
+  margin-left: 16px;
+  list-style-type: none;
+}
+.feed-lis {
+  margin-left: 20px;
+
+  list-style-type: none;
+}
+.theme-lis {
+  margin-left: 16px;
+
+  list-style-type: none;
+}
+.downloads-lis {
+  margin-left: 16px;
+
+  list-style-type: none;
+}
+.english-lis {
+  margin-left: 16px;
+
+  list-style-type: none;
+}
+.usd-lis {
+  margin-left: 16px;
+
+  list-style-type: none;
+}
+h3 {
+  margin: 4px;
+  font-size: 16px;
+  line-height: 19.5px;
+  padding-bottom: 0.5rem;
+}
+.bname {
+  display: block;
+  color: #f4be2b;
+  font-weight: 450;
+}
+.bdate {
+  color: #76808f;
+  display: block;
+}
+.title-binance {
+  display: inline-block;
+  line-height: 1rem;
+}
+.blackimg-bin {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  width: 45px;
+  height: 40px;
+}
+
+.h-links {
+  background: #fef6d8;
+  font-size: 11.5px;
+  display: flex;
+  gap: 1rem;
+  transition: all;
+}
+.h-links a:hover {
+  color: #f4be2b;
+  text-decoration: underline;
+  text-decoration-color: #f4be2b;
+}
+.h-links a {
+  text-decoration: none;
+  color: #70708a;
+}
+
+li {
+  margin-left: 35px;
+}
+
+footer {
+  height: 69px;
+  border-top: solid 1px;
+  border-bottom: none;
+  border-top-color: #eaecef;
+}
+p {
+  margin: 4px;
+}
+
+.sec-3 {
+  display: flex;
+  margin-bottom: -11rem;
+}
+
+.btc__link {
+  color: #ffcb2e;
+  padding-left: 10px;
+  text-decoration-color: #ffcb2e;
+}
+.btc__link:hover {
+  color: #f0b90b;
+}
+.eth__link {
+  color: #ffcb2e;
+  padding-left: 10px;
+  text-decoration-color: #ffcb2e;
+}
+.eth__link:hover {
+  color: #f0b90b;
+}
+.trust-wallet-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.trust-wallet-link2 {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.trust-wallet-link:hover {
+  text-decoration: underline;
+}
+.trust-wallet-link2:hover {
+  text-decoration: underline;
+}
+.atomic-wallet-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.atomic-wallet-link2 {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.atomic-wallet-link:hover {
+  text-decoration: underline;
+}
+.atomic-wallet-link2:hover {
+  text-decoration: underline;
+}
+.zengo-wallet-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.zengo-wallet-link2 {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.zengo-wallet-link:hover {
+  text-decoration: underline;
+}
+.zengo-wallet-link2:hover {
+  text-decoration: underline;
+}
+.highquality-wallet-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.highquality-wallet-link:hover {
+  text-decoration: underline;
+}
+.binancecoin-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.binancecoin-link:hover {
+  text-decoration: underline;
+}
+.bnb-12 {
+  text-decoration: none;
+  color: #ffcb2e;
+}
+.submit-link {
+  color: #ffcb2e;
+  text-decoration: none;
+}
+.submit-link:hover {
+  text-decoration: underline;
+}
+input {
+  display: none;
+}
+.aboutus-wrap {
+  margin-left: -49px;
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-aboutus"]:checked + .aboutus-wrap {
+  display: block;
+}
+.lab4-aboutus1 {
+  margin-right: 12px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: -20px;
+}
+i .fa-minus {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.aboutus-lis {
+  position: relative;
+  list-style-type: none;
+}
+.aboutus-lis:hover i .fa-minus {
+  display: block;
+}
+.product-input {
+  display: none;
+}
+.product-wrap {
+  margin-left: -49px;
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-product"]:checked + .product-wrap {
+  display: block;
+}
+.lab4-product1 {
+  margin-right: 12px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-minus {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.product-lis {
+  position: relative;
+  list-style-type: none;
+}
+.product-lis:hover i .fa-minus {
+  display: block;
+}
+.service-input {
+  display: none;
+}
+.service-wrap {
+  margin-left: -49px;
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-service"]:checked + .service-wrap {
+  display: block;
+}
+.lab4-service1 {
+  margin-right: 12px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-minus {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.service-lis {
+  position: relative;
+  list-style-type: none;
+}
+.service-lis:hover i .fa-minus {
+  display: block;
+}
+.support-input {
+  display: none;
+}
+.support-wrap {
+  margin-left: -49px;
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-support"]:checked + .support-wrap {
+  display: block;
+}
+.lab4-support1 {
+  margin-right: 12px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-minus {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.support-lis {
+  position: relative;
+  list-style-type: none;
+}
+.support-lis:hover i .fa-minus {
+  display: block;
+}
+.learn-input {
+  display: none;
+}
+.learn-wrap {
+  margin-left: -49px;
+  display: none;
+  position: static;
+  list-style-type: none;
+}
+[id^="lab4-learn"]:checked + .learn-wrap {
+  display: block;
+}
+.lab4-learn1 {
+  margin-right: 12px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i .fa-minus {
+  position: absolute;
+  background: white;
+  right: 0px;
+  display: none;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.learn-lis {
+  position: relative;
+  list-style-type: none;
+  text-decoration: none;
+}
+.learn-lis:hover i .fa-minus {
+  display: block;
+}
+
+.buycrypto-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.trade-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.derivatives-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.earn-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.finance-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+.institutional-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+
+.products-wrap li a {
+  text-decoration: none;
+  color: #1e2329;
+}
+
+.aboutus-wrap li a {
+  text-decoration: none;
+  color: #70708a;
+}
+.product-wrap li a {
+  text-decoration: none;
+  color: #70708a;
+}
+.service-wrap li a {
+  text-decoration: none;
+  color: #70708a;
+}
+.support-wrap li a {
+  text-decoration: none;
+  color: #70708a;
+}
+.learn-wrap li a {
+  text-decoration: none;
+  color: #70708a;
+}
+
+.community-sp {
+  color: #1e2329;
+  font-weight: bold;
+  font-size: 17px;
+  padding-right: 20px;
+}
+.yimg {
+  width: 23px;
+  height: 23px;
+}
+
+.icons-wrap2 {
+  box-sizing: border-box;
+  min-width: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+  padding-top: 1rem;
+  margin-right: 40px;
+}
+.commsp-wrap {
+  margin-top: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707a8a;
+}
+.buycrypto-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buycrypto-div1 {
+  display: flex;
+  width: 30px;
+}
+.bcsp {
+  display: flex;
+  margin: 5px;
+  margin-top: -22px;
+}
+
+.buycrypto-img {
+  width: 20px;
+  display: inline-block;
+}
+.buycrypto-div2 {
+  display: inline-block;
+}
+
+.downloads-div {
+  display: inline-block;
+  width: 20px;
+}
+.downloads-div1 {
+  display: inline-block;
+}
+.downloads-link {
+  color: #1e2329;
+  text-decoration: none;
+}
+
+.downloads-div a {
+  text-decoration: none;
+  color: #1e2329;
+}
+
+.english-div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  margin-right: 5px;
+}
+.english-link {
+  color: #1e2329;
+  text-decoration: none;
+}
+.english-div1 {
+  display: inline-block;
+}
+
+.usd-div a {
+  text-decoration: none;
+  color: #1e2329;
+}
+
+.theme-div {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+.theme-div1 {
+  display: inline-block;
+}
+
+.theme-link {
+  text-decoration: none;
+  color: #1e2329;
+}
+
+.finance-div {
+  display: flex;
+  align-items: center;
+}
+.products-div {
+  display: flex;
+  align-items: center;
+}
+.earn-div {
+  display: flex;
+  align-items: center;
+}
+.derivatives-div {
+  display: flex;
+  align-items: center;
+}
+.trade-div {
+  display: flex;
+  align-items: center;
+}
+.usd-div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+}
+.usd-link {
+  text-decoration: none;
+  color: #1e2329;
+}
+.usd-div1 {
+  display: inline-block;
+}
+.markets-div {
+  vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+}
+
+.markets-div1 {
+  display: inline-block;
+}
+.nft-div1 {
+  display: inline-block;
+}
+.nft-div {
+  width: 22px;
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.wijet-wrap {
+  display: flex;
+  /* position: absolute; */
+  text-align: center;
+}
+
+.wijet-wrap1a {
+  display: flex;
+  /* position: absolute; */
+  text-align: center;
+}
+
+/* .wijettpsec {
+  display: flex;
+} */
+
+.wijet-wrap2 {
+  display: none;
+  position: absolute;
+  background-color: #eaecef;
+  z-index: 3;
+}
+.wijet-wrap2a {
+  display: none;
+  position: absolute;
+  background: #eaecef;
+  width: 85vw;
+  /* height: 122.6vh; */
+  justify-content: center;
+  z-index: 3;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* right: -10px; */
+  left: 20%;
+}
+
+.wijet-wrap3,
+.wijet-wrap3a {
+  text-align: center;
+}
+
+.wijettpsec,
+.bwijettpsec {
+  background: #333333;
+  color: #f0b90b;
+  gap: 2em;
+  display: flex;
+}
+.ethsmtadrs,
+.btcsmtadrs {
+  font-size: 12px;
+  color: #7a7a7a;
+}
+.b-dex,
+.bb-dex {
+  display: flex;
+  justify-content: center;
+  background: #333333;
+  padding: 15px;
+  color: #f4be2b;
+  margin-top: 4rem;
+}
+/* .steps-dep {
+  color: #1e1e1e;
+  text-align: left;
+  margin-left: 3px;
+  width: 300px;
+  margin-top: 1em;
+  text-align: left;
+} */
+.steps-hdn {
+  margin-top: 40px;
+}
+.htu-dep,
+.bhtu-dep {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #7a7a7a;
+}
+.sup-p,
+.bsup-p {
+  margin-top: 40px;
+  text-align: center;
+}
+.team-p,
+.bteam-p {
+  text-align: center;
+}
+.eth-input,
+.btc-input,
+.text,
+.textbtc {
+  display: inline-block;
+  padding: 8px;
+  width: 260px;
+  border-left: none;
+  border-radius: 4px;
+}
+.fa-clone {
+  padding: 9px;
+  border-right: none;
+  background: #ffcb3e;
+  color: white;
+}
+iframe {
+  width: 100vw;
+  height: 100vh;
+}
+.ethbcde-container,
+.btcbcde-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fa-spinner {
+  color: #f4be2b;
+  font-size: 5rem;
+}
+.ethclikbtn,
+.btcclikbtn {
+  /* position: relative; */
+  margin-left: 15px;
+  border: none;
+  color: #f0b90b;
+  background: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .research-img {
+    width: 500px;
+  }
+  .sec-3 {
+    /* height: 60vh;
+    margin-left: -450px; */
+  }
+}
+
+.research-link {
+  text-decoration: none;
+}
+
+.research-body {
+  display: grid;
+  text-decoration: none;
+}
+.research-title {
+  color: #f0b90b;
+  margin: 10px;
+  display: block;
+  text-decoration: none;
+}
+.research-desc {
+  color: #70708a;
+  margin: 5px;
+}
+
+.research-img {
+  margin: 5px;
+  border-top-left-radius: 10px;
+}
+
+.flex-container {
+  margin-left: 3%;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+}
+.show-modal,
+.show-modal1 {
+  font-size: 17px;
+  border: none;
+  color: #f0b90b;
+  background: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.close-modal,
+.close-modal1 {
+  position: absolute;
+  right: 2rem;
+  font-size: 2rem;
+  color: grey;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+/* -------------------------- */
+/* Specific to Modal */
+.hidden {
+  display: none;
+}
+
+.modal,
+.modal1 {
+  transition: 5s;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 82%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+/* .modal1 {
+  position: absolute;
+} */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}

